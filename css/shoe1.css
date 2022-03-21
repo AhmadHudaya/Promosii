@@ -1,0 +1,19 @@
+fronttulisan{
+  color: #282631;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: 'Secular One', sans-serif;
+  transition: 0.5s;
+}
+
+.fronttulisan:hover{
+  transform: scale(1.05);
+}
+
+.frontbiodata{
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}

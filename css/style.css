@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+}
+
+.navigasi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  font-family: 'Secular One', sans-serif;
+  color: black;
+  margin-left: 10px;
+}
+
+.logo{
+  color: black;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.logo:hover{
+  color: #232323;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.list li{
+  display: flex;
+}
+
+.list li a:hover{
+  color: gray;
+}
+
+.front{
+  background-image: url(/img/vg.jpg);
+  background-size: cover;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fronttulisan{
+  color: gray;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: 'Secular One', sans-serif;
+  transition: 0.5s;
+}
+
+.fronttulisan:hover{
+  transform: scale(1.05);
+}
+
+.frontbiodata{
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}
+.kotak {
+  margin: 20px 20px;
+}
+
+.kotak h1 {
+  color: #232323;
+}
+
+.kotak p {
+  margin-top: 10px;
+  font-family: tahoma;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  margin-top: 25px;
+  
+}
+
+div.box img:hover {
+  transform: translateY(-5%);
+  transition: 0.7s;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
